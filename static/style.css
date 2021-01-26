@@ -1,0 +1,29 @@
+body {
+	margin: 2rem;
+}
+
+.skyNet {
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+}
+
+.skyNet p {
+	position: absolute;
+	background-color:"transparent";
+	color: rgb(255, 255, 255);
+	
+	z-index: 1;
+	font-size: 1rem;
+}
+
+#innerSquare {
+	border: 1px solid rgb(255, 255, 255);
+	z-index: 1;
+	position: absolute;
+}
+
+img {
+	height: 50%;
+	width: auto;
+}
